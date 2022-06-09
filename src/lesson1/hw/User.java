@@ -1,61 +1,30 @@
 package lesson1.hw;
 
+import lombok.*;
+
+@NoArgsConstructor
+@AllArgsConstructor
+@Getter
+@Setter
+@ToString
+
 public class User {
-    private int userId;
     private int id;
-    private String title;
-    private String body;
-
-    public User() {
-    }
-
-    public User(int userId, int id, String title, String body) {
-        this.userId = userId;
-        this.id = id;
-        this.title = title;
-        this.body = body;
-    }
-
-    public int getUserId() {
-        return userId;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public String getTitle() {
-        return title;
-    }
-
-    public String getBody() {
-        return body;
-    }
-
-    public void setUserId(int userId) {
-        this.userId = userId;
-    }
-
-    public void setId(int id) {
-        this.id = id;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public void setBody(String body) {
-        this.body = body;
-    }
-
-    @Override
-    public String toString() {
-        return "User{" +
-                "userId=" + userId +
-                ", id=" + id +
-                ", title='" + title + '\'' +
-                ", body='" + body + '\'' +
-                '}';
-    }
-
+    private String name;
+    private String username;
+    private String email;
+    private Object address;
+    private String street;
+    private String suite;
+    private String city;
+    private int zipcode;
+    private Object geo;
+    private int lat;
+    private int lng;
+    private int phone;
+    private String website;
+    private Object company;
+//    private String name = "Name";
+    private String catchPhrase;
+    private String bs;
 }
