@@ -19,26 +19,6 @@ public class Hw1 {
         comments.setBody("sdsdfsdfsdfsdff  sd fsdf sdf sdf sssdfgsdf sdfgs gsfgdfgd dgdfsdsd sdfsdsdffsd");
         System.out.println(comments);
 
-        User user = new User();
-        user.setId(90);
-        user.setName("Kolya");
-        user.setUsername("Koks");
-        user.setEmail("sdf@gd.asd");
-        user.setAddress("Object");
-        user.setStreet("Street");
-        user.setSuite("Suite");
-        user.setCity("city");
-        user.setZipcode(1380);
-        user.setGeo(123);
-        user.setLat(321);
-        user.setLng(333);
-        user.setPhone(730213);
-        user.setWebsite("sdfsf.com");
-        user.setCompany("Object");
-//    private String name = "Name";
-        user.setCatchPhrase("Catch");
-        user.setBs("Bs");
-        System.out.println(user);
 
     }
 }
