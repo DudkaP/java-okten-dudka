@@ -1,8 +1,8 @@
-package lesson2.hw1;
+package hw1;
 
-import lesson2.hw1.user.Adress;
-import lesson2.hw1.user.Company;
-import lesson2.hw1.user.Geo;
+import hw1.user.Adress;
+import hw1.user.Company;
+import hw1.user.Geo;
 
 public class Main {
     public static void main(String[] args) {

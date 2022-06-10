@@ -1,4 +1,4 @@
-package lesson2.hw3;
+package hw3;
 
 import lombok.*;
 

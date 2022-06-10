@@ -1,4 +1,4 @@
-package lesson2.hw1.user;
+package hw1.user;
 
 import lombok.*;
 

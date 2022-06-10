@@ -1,4 +1,4 @@
-package lesson2.hw3;
+package hw3;
 
 public class Journal extends Book{
     private int pages;

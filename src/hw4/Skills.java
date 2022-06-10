@@ -1,8 +1,6 @@
-package lesson2.hw4;
+package hw4;
 
 import lombok.*;
-
-import java.util.ArrayList;
 
 //@ToString
 @Setter
