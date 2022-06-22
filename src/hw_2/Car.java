@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 
 public class Car {
     private String carName;
-    private double power;
+    private int power;
     Owner owner;
     private int cost;
     private int year;
